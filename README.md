@@ -1,5 +1,5 @@
 # tpq2jpg2kml
-Converts proprietary .TPQ files from National Geographic Topo Trails Illustrated to Bit Perfect JPGs and writes the KML wrapper to open them in Google Earth.  This is my ugly, ugly code to convert Nat Geo Topo/Trails Illustrated TPQ files to JPG & KML.
+Converts proprietary .TPQ files from National Geographic Topo & Trails Illustrated to "bit perfect" JPGs and writes the KML file to open them in Google Earth.
 
 Tested on Ubuntu 20.04
 
@@ -25,4 +25,4 @@ Run:
 ./doit.sh
 
 
-The script will run the python script on each TPQ file, extracting the bit perfect JPGs from the TPQ file.  The JPGs in one TPQ file combine to form a maplet when stitched together using imagemagick.  Once all the maplets are created, a KML file is then written to refernce all the image files.  Open the KML file in Google Earth to test that it works, rename it to whatever you want, and then use the "Save As" function to write it to a KMZ file that contains all the images.  I typically then use "Global Mapper" to convert the KMZ files to MBTILE.  Then I use MOBAC to stitch the various MBTILE files into one MBTILE file with all zoom levels.
+The script will run the python program on each TPQ file, extracting the bit perfect JPGs from the TPQ file.  The multiple JPGs in one TPQ file combine to form a maplet when stitched together using imagemagick.  Once all the maplets are created, a KML file is then written to refernce all the image files.  Open the KML file in Google Earth to test that it works, in the left pane of GE rename it to whatever you want, and then use the "Save As" function to write it to a KMZ file that contains all the images.  I typically then use "Global Mapper" to convert the KMZ files to MBTILE.  Then I use MOBAC to stitch the various MBTILE files into one MBTILE file with all zoom levels.
