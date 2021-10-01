@@ -1,7 +1,7 @@
 # tpq2jpg2kml
 Converts proprietary .TPQ files from National Geographic Topo & Trails Illustrated to "bit perfect" JPGs and writes the KML file to open them in Google Earth.
 
-Tested on Ubuntu 20.04
+Tested on Ubuntu 20.04, for all "Trails Illustrated" sets, and majority of the "U.S. State" sets.
 
 Dependendencies:
 
