@@ -14,7 +14,7 @@ Open the root directory of any CD-ROM or ISO of Nat-Geo Topo or Trails Illustrat
 
 Remove the small TPQ files for the overview maps (US, AK1, HI1, etc).  The first time you process a data set, you can also run the code on these files, but I believe they are the same overview maps on every data set.  One data set had the entire USA down to roughly a zoom level of 12 (1:100K scale), if I remember correctly it was the "National Parks" set.
 
-Run the code on one set of TPQ's at a time, with respect to the leading letter of the filenames.  (i.e. all the F files, then all the Q files, etc -- typical letters are A, F, K, Q).  Each set of files is a different map resolution (i.e. A files are the 250K map zoom level, F files are the 100k, K files are 64k, Q files are 24K).  Each data set will have more files, Q at 24k being the most.
+Run the code on one set of TPQ's at a time, with respect to the leading letter of the filenames.  (i.e. all the F files, then all the Q files, etc -- typical letters are A, F, K, Q).  Each set of files is a different map resolution (i.e. A files are the 250K map zoom level, F files are the 100k, K files are 64k, Q files are 24K).  The higher the resolution of the data, the more files, Q at 24k being the most.  After each run, clean out the "output" directory.
 
 
 Run:
