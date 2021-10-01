@@ -10,7 +10,7 @@ python3 & imagemagick  (apt install python3 imagemagick)
 
 Setup:
 
-Open the root directory of any CD-ROM or ISO of Nat-Geo Topo or Trails Illustrated Product, search for and copy all *.tpq or *.TPQ files from the disc into the cloned working directory.  You may need to do this for up to 10 discs in a multi-disc set.  If the files are *.tpq, use the rename.sh to change everything to *.TPQ files or change the doit.sh script appropriately.
+Open the root directory of any CD-ROM or ISO of Nat-Geo Topo or Trails Illustrated Product, search for and copy all *.tpq or *.TPQ files from the disc into the cloned working directory.  You may need to do this for up to 10 or more discs in a multi-disc set for an entire U.S. State.  If the files are *.tpq, use the rename.sh to change everything to *.TPQ files or change the doit.sh script appropriately.
 
 Remove the small TPQ files for the overview maps (US, AK1, HI1, etc).  The first time you process a data set, you can also run the code on these files, but I believe they are the same overview maps on every data set.  One data set had the entire USA down to roughly a zoom level of 12 (1:100K scale), if I remember correctly it was the "National Parks" set.
 
