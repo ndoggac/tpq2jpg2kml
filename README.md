@@ -12,7 +12,7 @@ Setup:
 
 Open the root directory of any CD-ROM or ISO of Nat-Geo Topo or Trails Illustrated Product, search for and copy all *.tpq or *.TPQ files from the disc into the cloned working directory.  You may need to do this for several discs in a multi-disc set.  If the files are *.tpq, use the rename.sh to change everything to *.TPQ files or change the doit.sh script appropriately.
 
-Remove the small TPQ files for the overview maps (US_*, AK1_*, HI1_*, etc).  The first time you process a data set, you can also run the code on these files, but I believe they are the same overview maps on every data set.  One data set had the entire USA down to a roughly zoom level of 11 (1:250K scale).
+Remove the small TPQ files for the overview maps (US_*, AK1_*, HI1_*, etc).  The first time you process a data set, you can also run the code on these files, but I believe they are the same overview maps on every data set.  One data set had the entire USA down to roughly a zoom level of 12 (1:100K scale).
 
 Run the code on one set of TPQ's at a time, with respect to the leading letter of the filenames.  (i.e. all the F files, then all the Q files, etc -- typical letters are A, F, K, Q).  Each set of files is a different map resolution (i.e. A files are the 250K map zoom level, F files are the 100k, K files are 64k, Q files are 24K).  Each data set will have more files, Q at 24k being the most.
 
